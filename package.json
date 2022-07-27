@@ -1,0 +1,16 @@
+{
+  "name": "parallax",
+  "version": "1.0.0",
+  "description": "",
+  "dependencies": {
+    "autoprefixer": "^10.4.7",
+    "postcss": "^8.4.14",
+    "tailwindcss": "^3.1.6"
+  },
+  "scripts": {
+    "start": "tailwindcss -i input.css -o styles/main.css --watch",
+    "build": "tailwindcss -i input.css -o styles/main.css"
+  },
+  "author": "",
+  "license": "ISC"
+}
